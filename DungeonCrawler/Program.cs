@@ -17,6 +17,7 @@ namespace DungeonCrawler
                 Console.WriteLine(weaponItem);
             }
 
+            //game menu
             Console.WriteLine("Dungeon Crawler");
             Console.WriteLine();
             Console.WriteLine("1. Play");
