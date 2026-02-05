@@ -10,21 +10,35 @@ namespace DungeonCrawler
     {
         static void Main(string[] args)
         {
-            List<string> weaponList = new List<string> {"sword", "gun", "crossbow", "bow", "magic"};
-
-            foreach (string weaponItem in weaponList)
-            {
-                Console.WriteLine(weaponItem);
-            }
-
-            //game menu
             Console.WriteLine("Dungeon Crawler");
             Console.WriteLine();
             Console.WriteLine("1. Play");
             Console.WriteLine("2. How to play");
             Console.WriteLine("3. Exit");
             Console.WriteLine();
+            Console.Write("Enter choice from menu: ");
+            var userMenuChoice = Console.ReadLine();
 
+            if (userMenuChoice == "1")
+            {
+                return;
+            }
+
+            else if (userMenuChoice == "2")
+            {
+                return;
+            }
+
+            else if (userMenuChoice == "3")
+            {
+                return;
+            }
+
+            else
+            {
+                Console.Clear();
+                Console.WriteLine("Incorrect input, please choose from the menu");
+            }
         }
     }
 }
